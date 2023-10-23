@@ -1,0 +1,169 @@
+*{
+	font-family: cursive;
+	margin:0;
+	padding:0;
+}
+
+.firstRow.row {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%,-65%);
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 80%;
+}
+
+button.btnFull {
+    display: block;
+    margin: 6px auto;
+    font-size: 25px;
+    padding: 15px;
+    width: 170px;
+    border-radius: 10px;
+    font-family: cursive;
+    border: none;
+    color: #b6b6b6;
+    background: #000000;
+}
+
+button.level {
+    background: #a80c0c;
+    display: block;
+    margin: 6px auto;
+    font-size: 25px;
+    padding: 15px;
+    width: 170px;
+    border-radius: 10px;
+    font-family: cursive;
+    border: none;
+    color: #dfdfdf;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.won {
+    font-size: 60px;
+    color: green;
+    font-family: cursive;
+    margin-bottom: 65px;
+}
+
+body {
+    background: #dd9121;
+}
+
+p#points {
+    font-size: 30px;
+    font-family: cursive;
+    color: brown;
+    margin: 15px;
+}
+
+input {
+    display: block;
+    margin: 6px auto;
+    font-size: 25px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: cursive;
+    border: none;
+    color: #b6b6b6;
+    background: #000000;
+}
+.container{
+	display: block;
+	width: 80vw;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+img{
+	display: block;
+	width: 100%;
+	background: #dd9121;
+	border-radius: 10px;
+}
+.image{
+	width: 15vw;
+	max-width: 80px;
+	max-height: 80px;
+	background: #dd9121;
+	height: 15vw;
+	display: inline-block;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+.img_top{
+	display: block;
+	position: absolute;
+	max-width: 80px;
+	max-height: 80px;
+	width: 15vw;
+	height: 15vw;
+	box-sizing: border-box;
+	background: #a80c0c;
+	border-radius: 8px;
+	padding: 25px;
+}
+.pointsMAX{
+	color: red;
+	font-size: 60px;
+	animation: color-change 1s infinite;
+}
+.pointsVeryGood{
+	color: orange;
+	font-size: 60px;
+}
+.pointsGood{
+	color: yellow;
+	font-size: 60px;
+}
+.pointsBad{
+	color: red;
+	font-size: 60px;
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .img_top {
+        max-width: 80px;
+        max-height: 80px;
+        width: 20vw;
+        height: 20vw;
+    }  
+    .image {
+        max-width: 80px;
+        max-height: 80px;
+        width: 20vw;
+        height: 20vw;
+    }
+}
+@media only screen and (max-width: 400px) {
+    
+    .img_top {
+        max-width: 120px;
+	    max-height: 120px;
+        width: 20vw;
+        height: 20vw;
+    }  
+    .image {
+        max-width: 120px;
+	    max-height: 120px;
+        width: 20vw;
+        height: 20vw;
+    }
+}
